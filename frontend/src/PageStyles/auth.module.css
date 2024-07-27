@@ -48,7 +48,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #007bff;
+    background-image: url("../../public/images/background_auth.jpg");
+    background-size: cover;
 }
 
+.switchComponents {
+    margin-top: 15px;
+}
 
+a {
+    text-decoration: none;
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+@media (max-width: 1150px) {
+    .authRight {
+        display: none;
+    }
+
+    .authLeft {
+        flex: 1 1 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .authContent {
+        padding-left: 20px;
+    }
+    .logo {
+        margin-top: 80px;
+    }
+    .switchComponents {
+         padding-bottom: 15px;
+    }
+}

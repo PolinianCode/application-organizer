@@ -3,3 +3,10 @@
     justify-content: space-between;
     gap: 20px;
 }
+
+@media (max-width: 1150px) {
+    .InputLayoutTwoRow {
+        flex-direction: column;
+        gap: 0;
+    }
+}
