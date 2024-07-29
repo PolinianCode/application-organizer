@@ -1,0 +1,9 @@
+.overviewContainer {
+    margin: 0;
+    padding: 0;
+}
+
+.workPanel {
+    display: flex;
+    height: 100vh;
+}

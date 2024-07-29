@@ -1,0 +1,52 @@
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #e6e6e6;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures the additional block is at the bottom */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+  }
+  
+  .sidebarItems {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebarItem {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebarItem svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .sidebarItem span {
+    font-size: 16px;
+  }
+  
+  .sidebarItem:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .active {
+    background-color: #e6f7ff;
+    color: #1890ff;
+  }
+  
+  .additionalBlock {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
